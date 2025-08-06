@@ -1,0 +1,31 @@
+theme = dark:catppuccin-mocha,light: catppuccin-macchiato
+mouse-hide-while-typing = true
+background-opacity = 0.85
+background-blur-radius = 20
+
+gtk-titlebar = false
+confirm-close-surface = false
+macos-titlebar-style = hidden
+macos-option-as-alt = true
+
+font-size = 18
+font-family = "JetBrainsMono Nerd Font"
+# font-family = "Hack Nerd Font"
+cursor-style = block
+cursor-style-blink = false
+
+mouse-scroll-multiplier = 2
+copy-on-select = true
+quick-terminal-position = center
+
+window-padding-x = 10
+#window-padding-y = 10
+window-colorspace = "display-p3"
+window-padding-balance = true
+
+# keybindings
+keybind = super+r=reload_config
+keybind = super+x=close_surface
+keybind = global:option+shift+cmd+ctrl+space=toggle_quick_terminal
+keybind = super+i=inspector:toggle
+
