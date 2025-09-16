@@ -29,6 +29,7 @@ export NVM_DIR="$HOME/.nvm"
 # 自动使用默认版本
 nvm use default &> /dev/null
 
+export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 export PATH="/opt/homebrew/opt/curl/bin:$PATH"
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 export PATH="/opt/homebrew/opt/node@14/bin:$PATH"
