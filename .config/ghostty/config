@@ -1,4 +1,4 @@
-theme = dark:catppuccin-mocha,light: catppuccin-macchiato
+theme = dark:catppuccin-mocha.conf,light: catppuccin-macchiato.conf
 mouse-hide-while-typing = true
 background-opacity = 0.85
 background-blur-radius = 20
