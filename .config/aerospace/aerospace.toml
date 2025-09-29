@@ -215,11 +215,11 @@ run = ['layout floating']
 
 [[on-window-detected]]
 if.app-id = 'com.tencent.qq'
-run = ['layout floating', 'move-node-to-workspace 3']
+run = ['layout floating']
 
 [[on-window-detected]]
 if.app-id = 'com.tencent.xinWeChat'
-run = ['layout floating', 'move-node-to-workspace 3']
+run = ['layout floating']
 
 [[on-window-detected]]
 if.app-id = 'io.github.clash-verge-rev.clash-verge-rev'
@@ -255,20 +255,12 @@ if.app-id = 'com.apple.DiskUtility'
 run = ['layout floating']
 
 [[on-window-detected]]
-if.app-id = 'com.mitchellh.ghostty'
-run = ['move-node-to-workspace 1']
-
-[[on-window-detected]]
 if.app-id = 'ru.keepcoder.Telegram'
 run = ['move-node-to-workspace 8']
 
 [[on-window-detected]]
-if.app-id = "md.obsidian"
-run = ['move-node-to-workspace 5']
-
-[[on-window-detected]]
 if.app-id = 'com.firecore.infuse'
-run = ['layout floating', 'move-node-to-workspace 10']
+run = ['layout floating', 'move-node-to-workspace i']
 
 [[on-window-detected]]
 if.app-id = 'com.philipyoungg.session'
@@ -304,7 +296,7 @@ run = ['layout floating']
 
 [[on-window-detected]]
 if.app-id = 'com.microsoft.VSCode'
-run = ['move-node-to-workspace v']
+run = ['move-node-to-workspace 10']
 
 [[on-window-detected]]
 if.app-id = 'com.parallels.desktop.console'
@@ -321,7 +313,6 @@ run = ['move-node-to-workspace s']
 [[on-window-detected]]
 if.app-id = 'com.nssurge.surge-dashboard'
 run = ['move-node-to-workspace s']
-
 
 [[on-window-detected]]
 if.app-id = 'me.zhiquan.mac.Picsee'
