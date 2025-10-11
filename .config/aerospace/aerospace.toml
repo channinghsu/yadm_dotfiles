@@ -51,7 +51,32 @@ on-focus-changed = ['move-mouse window-lazy-center']
 9 = 'SSN-24BZ'
 10 = 'SSN-24BZ'
 11 = 'SSN-24BZ'
-
+a = 'SSN-24BZ'
+b = 'SSN-24BZ'
+c = 'SSN-24BZ'
+d = 'SSN-24BZ'
+e = 'SSN-24BZ'
+f = 'SSN-24BZ'
+g = 'SSN-24BZ'
+h = 'SSN-24BZ'
+i = 'SSN-24BZ'
+j = 'SSN-24BZ'
+k = 'SSN-24BZ'
+l = 'SSN-24BZ'
+m = 'SSN-24BZ'
+n = 'SSN-24BZ'
+o = 'SSN-24BZ'
+p = 'SSN-24BZ'
+q = 'SSN-24BZ'
+r = 'SSN-24BZ'
+s = 'SSN-24BZ'
+t = 'SSN-24BZ'
+u = 'SSN-24BZ'
+v = 'SSN-24BZ'
+w = 'SSN-24BZ'
+x = 'SSN-24BZ'
+y = 'SSN-24BZ'
+z = 'SSN-24BZ'
 
 [gaps]
 inner.horizontal = 10 
@@ -328,4 +353,8 @@ run = ['layout floating']
 
 [[on-window-detected]]
 if.app-id = 'com.tencent.QQMusicMac'
+run = ['layout floating']
+
+[[on-window-detected]]
+if.app-id = 'com.tencent.WeWorkMac'
 run = ['layout floating']
