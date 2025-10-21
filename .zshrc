@@ -47,6 +47,7 @@ alias m='musicfox'
 alias f='fastfetch'
 alias y='yadm'
 alias ys='yadm status'
+alias nc='z nvim && nvim'
 
 # alias tmux='tmux -f ~/.config/tmux.conf'
 

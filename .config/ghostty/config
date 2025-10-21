@@ -1,6 +1,6 @@
 theme = dark:catppuccin-mocha.conf,light: catppuccin-macchiato.conf
 mouse-hide-while-typing = true
-background-opacity = 0.85
+background-opacity = 0.7
 background-blur-radius = 20
 
 gtk-titlebar = false
@@ -8,9 +8,8 @@ confirm-close-surface = false
 macos-titlebar-style = hidden
 macos-option-as-alt = true
 
-font-size = 18
+font-size = 19
 font-family = "JetBrainsMono Nerd Font"
-# font-family = "Hack Nerd Font"
 cursor-style = block
 cursor-style-blink = false
 
