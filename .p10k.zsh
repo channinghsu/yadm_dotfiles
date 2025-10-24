@@ -115,6 +115,20 @@
     # example               # example user-defined segment (see prompt_example function below)
   )
 
+  # 插入模式样式
+  typeset -g POWERLEVEL9K_VI_MODE_INSERT_FOREGROUND=255  # 白色文本
+  typeset -g POWERLEVEL9K_VI_MODE_INSERT_BACKGROUND=46   # 绿色背景
+  typeset -g POWERLEVEL9K_VI_MODE_INSERT_ICON='\uF040'   #  铅笔图标
+
+  # 普通模式样式
+  typeset -g POWERLEVEL9K_VI_MODE_NORMAL_FOREGROUND=255  # 白色文本
+  typeset -g POWERLEVEL9K_VI_MODE_NORMAL_BACKGROUND=160  # 红色背景
+  typeset -g POWERLEVEL9K_VI_MODE_NORMAL_ICON='\uF0E7'   #  Vim图标
+
+  # 启用切换动画
+  typeset -g POWERLEVEL9K_VI_MODE_SHOW_CHANGE=true
+  typeset -g POWERLEVEL9K_VI_MODE_CHANGE_DURATION=200  # ms
+
   # Defines character set used by powerlevel10k. It's best to let `p10k configure` set it for you.
   typeset -g POWERLEVEL9K_MODE=ascii
   # When set to `moderate`, some icons will have an extra space after them. This is meant to avoid
@@ -1508,6 +1522,7 @@
   #   typeset -g POWERLEVEL9K_GOOGLE_APP_CRED_TEST_FOREGROUND=3
   #   typeset -g POWERLEVEL9K_GOOGLE_APP_CRED_TEST_VISUAL_IDENTIFIER_EXPANSION='⭐'
   #   typeset -g POWERLEVEL9K_GOOGLE_APP_CRED_TEST_CONTENT_EXPANSION='$P9K_GOOGLE_APP_CRED_PROJECT_ID'
+
   typeset -g POWERLEVEL9K_GOOGLE_APP_CRED_CLASSES=(
       # '*:*prod*:*'  PROD    # These values are examples that are unlikely
       # '*:*test*:*'  TEST    # to match your needs. Customize them as needed.

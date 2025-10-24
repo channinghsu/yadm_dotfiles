@@ -48,7 +48,7 @@ defaults=(
   updates=when_shown
   icon.font="$FONT:Regular:14.0"
   icon.color=$ICON_COLOR
-  icon.padding_left=$PADDINS
+  icon.padding_left=$PADDINGS
   icon.padding_right=$PADDINGS
   label.font="$FONT:Semibold:13.0"
   label.color=$LABEL_COLOR
@@ -84,9 +84,12 @@ source "$ITEM_DIR/front_app.sh"
 
 # Right
 source "$ITEM_DIR/calendar.sh"
-source "$ITEM_DIR/wifi.sh"
-source "$ITEM_DIR/battery.sh"
 source "$ITEM_DIR/volume.sh"
+source "$ITEM_DIR/battery.sh"
+source "$ITEM_DIR/wifi.sh"
+source "$ITEM_DIR/memory.sh"
+source "$ITEM_DIR/network.sh"
+source "$ITEM_DIR/cpu.sh"
 
 sketchybar --hotload on
 
