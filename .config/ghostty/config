@@ -1,7 +1,7 @@
-theme = dark:catppuccin-mocha.conf,light: catppuccin-macchiato.conf
+theme = dark:catppuccin-mocha.conf,light:catppuccin-macchiato.conf
 mouse-hide-while-typing = true
-background-opacity = 0.7
-background-blur-radius = 20
+background-opacity = 0.8
+background-blur-radius = 10
 
 gtk-titlebar = false
 confirm-close-surface = false
@@ -14,17 +14,13 @@ cursor-style = block
 cursor-style-blink = false
 
 mouse-scroll-multiplier = 2
-copy-on-select = true
 quick-terminal-position = center
+copy-on-select = true
 
 window-padding-x = 10
-#window-padding-y = 10
 window-colorspace = "display-p3"
 window-padding-balance = true
 
-# keybindings
-keybind = super+r=reload_config
-keybind = super+x=close_surface
-keybind = global:option+shift+cmd+ctrl+space=toggle_quick_terminal
-keybind = super+i=inspector:toggle
-
+keybind = super+equal=increase_font_size:1
+keybind = super+minus=decrease_font_size:1
+keybind = super+0=reset_font_size
